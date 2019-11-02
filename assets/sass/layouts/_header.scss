@@ -1,0 +1,27 @@
+/*header section start*/
+header.topbar {
+  nav {
+    background: $primary;
+    .nav-wrapper{
+      ul{
+        li{
+          a{
+            &:hover{
+              color: #ffffff;
+              background: $secondary;
+            }
+          }
+          a.btn{
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+  .mobile-login-btn a button{
+    background: #fff;
+    color: $primary;
+  }
+}
+
+/*header section end*/

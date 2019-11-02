@@ -1,0 +1,120 @@
+/*Medium Layout: 1280*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .info-section .info-items-area .info-common-style .offers-title h1 {
+        font-size: 1.8em;
+    }
+
+    .info-section .info-items-area .info-common-style .offers-title {
+        padding: 0;
+    }
+
+    .info-section .info-items-area .info-common-style .offer-excerpt {
+        padding: 0 10px;
+        margin-top: 15px;
+    }
+
+    .single-gItem {
+        height: 185px;
+    }
+}
+
+/*Tablet Layout: 768px*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .mobile-login-btn {
+        display: block !important;
+    }
+    .info-section .info-items-area .info-common-style .offers-title {
+        padding: 0;
+    }
+
+    .info-section .info-items-area .info-common-style .offers-title h1 {
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
+
+    .info-section .info-items-area .info-common-style .offer-excerpt {
+        padding: 0 10px;
+    }
+
+    .info-section .info-items-area .info-common-style .info-link a {
+        font-size: 1.1em;
+    }
+    /*single page start*/
+    .single-page-post-area .single-page-thumb{
+        width: 300px;
+    }
+    /*single page end*/
+}
+
+/*Mobile Layout: 320px*/
+@media only screen and (max-width: 767px) {
+    .mobile-login-btn {
+        display: block !important;
+    }
+    .slider-section .caption {
+        text-align: center !important;
+    }
+
+    .slider-section .caption h3 {
+        font-size: 1.6em;
+    }
+
+    .slider-section .caption h5 {
+        font-size: 1.2em;
+    }
+
+    .slider-section .caption a.btn-large {
+        margin-top: 15px !important;
+        height: 45px;
+        line-height: 45px;
+        padding: 0 15px;
+    }
+
+    .section-title h2 {
+        font-size: 2.3em;
+    }
+
+    .info-section .info-items-area .info-common-style {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .info-section .info-items-area .info-common-style.facebook-page {
+        top: initial;
+        text-align: center;
+    }
+    /*single page start*/
+    .single-page-post-area {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .single-page-post-title {
+        order: 1;
+    }
+
+    .single-page-thumb {
+        order: 2;
+    }
+
+    .single-page-post-content {
+        order: 3;
+    }
+    .single-page-post-area .single-page-thumb{
+        width: 100%;
+        margin-left: 0;
+    }
+    .single-title h2{
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+    .single-page-post-content p{
+        text-align: justify;
+    }
+    /*single page end*/
+}
+
+/*Wide Mobile Layout: 480px*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}

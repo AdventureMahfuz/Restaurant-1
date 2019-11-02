@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Home | Restaurant Template 1</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/mdb.min.css">
+    <link rel="stylesheet" href="assets/css/materialize.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <!--<link rel="stylesheet" href="assets/css/animate.min.css">-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--top bar section start-->
+<header class="topbar navbar-fixed">
+    <nav>
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Logo</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="search-details.html">Online Order</a></li>
+                    <li><a href="#!">About Us</a></li>
+                    <li>
+                        <a class="dropdown-trigger" href="#!" data-target="dropdown1">
+                            pages
+                            <i class="material-icons right">arrow_drop_down</i>
+                        </a>
+                        <ul id="dropdown1" class="dropdown-content">
+                            <li><a href="login.html">Login</a></li>
+                            <li class="divider"></li>
+                            <li><a href="registration.html">Registration</a></li>
+                            <li class="divider"></li>
+                            <li><a href="reset-password.html">Reset Password</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <!--<a class="waves-effect rounded waves-light btn modal-trigger btn-deep-purple" href="#modal1">Login</a>-->
+                        <a href="login.html" class="my-auto btn btn-white btn-rounded mb-4">Login<i class="material-icons right">lock</i></a>
+                    </li>
+                </ul>
+                <div class="mobile-login-btn right d-none">
+                    <a href="#">
+                        <button type="button" class="btn">login</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#!">Online Order</a></li>
+        <li><a href="#!">Reservation</a></li>
+        <li>
+            <a class="dropdown-trigger" href="#!" data-target="dropdown2">
+                pages
+                <i class="material-icons right">arrow_drop_down</i>
+            </a>
+            <ul id="dropdown2" class="dropdown-content">
+                <li><a href="#!">About</a></li>
+                <li class="divider"></li>
+                <li><a href="#!">Gallery</a></li>
+                <li class="divider"></li>
+                <li><a href="#!">Contact Us</a></li>
+            </ul>
+        </li>
+    </ul>
+</header>
+<!--top bar section end-->
+
+<!--register form section start-->
+<br>
+<section class="register-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                <div class="form-area z-depth-1 p-3 rounded">
+                    <div class="section-title text-center">
+                        <h2 class="text-capitalize mt-3">create account</h2>
+                    </div>
+                    <div class="l-form pl-3 pr-3">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="input-field">
+                                        <input id="f-name" type="text" class="validate">
+                                        <label for="f-name">First Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-field">
+                                        <input id="l-name" type="text" class="validate">
+                                        <label for="l-name">Last Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="input-field">
+                                        <input id="r-email" type="email" class="validate">
+                                        <label for="r-email">Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-field">
+                                        <input id="r-password" type="password" class="validate">
+                                        <label for="r-password">Password</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-field">
+                                        <input id="rc-password" type="password" class="validate">
+                                        <label for="rc-password">Confirm Password</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-field">
+                                        <input id="r-postcode" type="text" class="validate">
+                                        <label for="r-postcode">Post Code</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-field">
+                                        <input id="r-house" type="text" class="validate">
+                                        <label for="r-house">House/Apt</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-field">
+                                        <input id="r-street" type="text" class="validate">
+                                        <label for="r-street">Street</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-field">
+                                        <input id="r-city" type="text" class="validate">
+                                        <label for="r-city">city</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-field">
+                                        <input id="r-mobile" type="text" class="validate">
+                                        <label for="r-mobile">Mobile Phone</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-field">
+                                        <input id="r-home-phone" type="text" class="validate">
+                                        <label for="r-home-phone">Home Phone</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <div class="text-right w-100">
+                                        <a href="index.html" class="waves-effect waves-light btn-large left white-text">Home <i class="material-icons left" style="-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);-ms-transform: rotate(180deg);-o-transform: rotate(180deg);transform: rotate(180deg);">send</i></a>
+                                        <button class="btn btn-large waves-effect waves-light" type="submit"
+                                                name="action">
+                                            register
+                                            <i class="material-icons right">send</i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+<!--register form section end-->
+
+<!--footer area start-->
+<section class="footer-section">
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row pb-4">
+                <div class="col-md-4 z-depth-1 rounded">
+                    <h5 class="white-text text-capitalize">get in touch</h5>
+                    <hr class="white">
+                    <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Nesciunt, similique.</p>
+                    <p><strong>Email: </strong>example@gmail.com</p>
+                    <p><strong>Phone: </strong>+8801739852881</p>
+                    <p><strong>Address: </strong>Lalon-sha road, 7001, kushtia, Bangladesh</p>
+                </div>
+                <div class="col-md-4 z-depth-1 rounded">
+                    <h5 class="white-text text-capitalize">Navigation links</h5>
+                    <hr class="white">
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Navigation Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Navigation Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Navigation Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Navigation Link 4</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 z-depth-1 rounded">
+                    <h5 class="white-text text-capitalize">facebook page</h5>
+                    <hr class="white">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs&width=340&height=181&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                                style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                                allowTransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container-fluid text-center">
+                <p class="m-0 white-text">© 2019 Copyright Text</p>
+            </div>
+        </div>
+    </footer>
+</section>
+<!--footer area end-->
+
+
+<!--back to top-->
+<!--<div class="back_to_top_area">
+    <div class="container">
+        <div class="row">
+            <div class="back_to_top">
+                <i class="fa fa-arrow-up"></i>
+            </div>
+        </div>
+    </div>
+</div>-->
+<!--back to end-->
+<!--<script src="assets/js/jquery-3.3.1.min.js"></script>-->
+<script src="assets/js/jquery-3.4.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/mdb.min.js"></script>
+<script src="assets/js/materialize.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<!--<script src="assets/js/wow.min.js"></script>-->
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/custom.js"></script>
+</body>
+</html>

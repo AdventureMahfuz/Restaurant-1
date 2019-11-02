@@ -1,0 +1,22 @@
+@import "base/_extends.scss";
+@import "base/_mixins.scss";
+@import "base/_variables.scss";
+
+@import "base/_default.scss";
+@import "base/_common.scss";
+
+
+
+@import "layouts/_header";
+
+@import "components/_slider";
+@import "components/_info";
+@import "components/_reservation-form";
+@import "components/_testimonial";
+@import "components/_contact";
+@import "components/_gallery";
+
+
+@import "pages/_menu-page";
+
+@import "layouts/_footer";

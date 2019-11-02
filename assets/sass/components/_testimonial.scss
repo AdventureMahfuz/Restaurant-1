@@ -1,0 +1,45 @@
+/*
+testimonial section style start
+*/
+.testimonial-section{
+  .testimonials{
+    position: relative;
+    .owl-nav{
+      margin-top: 10px;
+      text-align: right;
+      margin-right: 5px;
+      span{
+        @extend %owl-span;
+      }
+    }
+    .single-testimonial{
+      .testimonial-header{
+        height: 120px;
+        margin-bottom: 55px;
+        background: $primary;
+      }
+      .thumb{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        img{
+          width: auto;
+          height: 100%;
+          border-radius: 50%;
+          border: 5px solid #fff;
+        }
+      }
+      .t-cont{
+        h5{
+          color: $primary;
+        }
+      }
+    }
+  }
+}
+/*
+testimonial section style end
+*/
