@@ -48,6 +48,9 @@
 
 /*Mobile Layout: 320px*/
 @media only screen and (max-width: 767px) {
+    .sticky-area-mobile-view{
+        display: block;
+    }
     .mobile-login-btn {
         display: block !important;
     }
